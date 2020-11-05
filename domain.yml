@@ -13,7 +13,6 @@ intents:
 - create_item
 - Apply_workflow
 - create_dataset
-
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -37,6 +36,10 @@ responses:
   utter_dataset:
   - text: file-->new-->dataset and select the dataset type.    
 actions:
+  - utter_goodbye
+  - utter_greet
+  - utter_happy
+  - utter_iamabot
   - utter_name
   - utter_item
   - utter_workflow
