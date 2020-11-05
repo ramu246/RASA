@@ -16,7 +16,6 @@
 
 ## intent:create
 - what you want to create?
-- what you need to create?
 
 ## intent:create_item
 - how to create item in Teamcenter
