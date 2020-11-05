@@ -1,3 +1,4 @@
+# This is a sample Python script.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -26,18 +27,18 @@ responses:
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
-  - text: Bye   
+  - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_name:
   - text: my name is TcU Chatbot.
   utter_create:
-  - text: "what you want to create:".
+  - text: 'what you want to create:'
     buttons:
-      - title: "create item"
-        payload: "/create_item"
-      - title: "create dataset"
-        payload: "/create_dataset"
+    - title: "create item"
+      payload: "/create_item"
+    - title: "create dataset"
+      payload: "/create_dataset"
   utter_item:
   - text: file-->new-->item and select the item type.
   utter_workflow:
