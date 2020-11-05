@@ -11,7 +11,6 @@ intents:
 - mood_unhappy
 - bot_challenge
 - what_name
-- what_to_create
 - create_item
 - Apply_workflow
 - create_dataset
@@ -46,7 +45,6 @@ actions:
   - utter_happy
   - utter_iamabot
   - utter_name
-  - utter_create
   - utter_item
   - utter_workflow
   - utter_dataset
