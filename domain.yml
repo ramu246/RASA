@@ -29,13 +29,13 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_name:
-    - text: my name is TcU Chatbot.
+  - text: my name is TcU Chatbot.
   utter_item:
-    - text: file-->new-->item and select the item type.
+  - text: file-->new-->item and select the item type.
   utter_workflow:
-    - text: file-->new-->workflow process and select the required workflow.
+  - text: file-->new-->workflow process and select the required workflow.
   utter_dataset:
-    - text: file-->new-->dataset and select the dataset type.    
+  - text: file-->new-->dataset and select the dataset type.    
 actions:
   - utter_name
   - utter_item
