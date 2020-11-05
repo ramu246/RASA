@@ -35,10 +35,10 @@ responses:
   utter_create:
   - text: 'what you want to create:'
     buttons:
-    - title: "create item"
-      payload: "/create_item"
-    - title: "create dataset"
-      payload: "/create_dataset"
+      - title: "create item"
+        payload: "/create_item"
+      - title: "create dataset"
+        payload: "/create_dataset"
   utter_item:
   - text: file-->new-->item and select the item type.
   utter_workflow:
