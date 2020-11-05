@@ -14,6 +14,20 @@
 - may i know your name?
 - your good name please?
 
+## intent:create_item
+- how to create item in Teamcenter
+- how to create item
+- Create item in Teamcenter?
+
+## intent:Apply_workflow
+- how to initiate workflow?
+- how to apply workflow to item?
+
+## intent:create_dataset
+- how to create a dataset
+- create a dataset?
+- how to create a dataset in Teamcenter
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -62,17 +76,3 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
-
-## intent:create_item
-- how to create item in Teamcenter
-- how to create item
-- Create item in Teamcenter?
-
-## intent:Apply_workflow
-- how to initiate workflow?
-- how to apply workflow to item?
-
-## intent:create_dataset
-- how to create a dataset
-- create a dataset?
-- how to create a dataset in Teamcenter
