@@ -10,6 +10,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - what_name
+- create
 - create_item
 - Apply_workflow
 - create_dataset
@@ -30,6 +31,13 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_name:
   - text: my name is TcU Chatbot.
+  utter_create:
+  - text: "what you want to create:".
+    buttons:
+      - title: "create item"
+        payload: "/create_item"
+      - title: "create dataset"
+        payload: "/create_dataset"
   utter_item:
   - text: file-->new-->item and select the item type.
   utter_workflow:
@@ -44,6 +52,7 @@ actions:
   - utter_happy
   - utter_iamabot
   - utter_name
+  - utter_create
   - utter_item
   - utter_workflow
   - utter_dataset
