@@ -11,12 +11,12 @@ intents:
 - mood_unhappy
 - bot_challenge
 - what_name
-- create
+- what_to_create
 - create_item
 - Apply_workflow
 - create_dataset
 - create_form
-responses:
+templates:
   utter_greet:
   - text: Hey! How are you?
   utter_cheer_up:
@@ -34,11 +34,6 @@ responses:
   - text: my name is TcU Chatbot.
   utter_create:
   - text: 'what you want to create:'
-    buttons:
-      - title: create item
-        payload: /create_item
-      - title: create dataset
-        payload: /create_dataset
   utter_item:
   - text: file-->new-->item and select the item type.
   utter_workflow:
