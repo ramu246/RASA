@@ -14,6 +14,9 @@
 - may i know your name?
 - your good name please?
 
+## intent:what_to_create
+- what you want to create?
+
 ## intent:create_item
 - how to create item in Teamcenter
 - how to create item
@@ -32,6 +35,9 @@
 - how to create a form
 - create a form?
 - how to create a form in Teamcenter
+
+## intent:google_link
+- how to access google link
 
 ## intent:goodbye
 - bye
