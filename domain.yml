@@ -14,6 +14,7 @@ intents:
 - create_item
 - Apply_workflow
 - create_dataset
+- create_form
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -42,7 +43,9 @@ responses:
   utter_workflow:
   - text: file-->new-->workflow process and select the required workflow.
   utter_dataset:
-  - text: file-->new-->dataset and select the dataset type.    
+  - text: file-->new-->dataset and select the dataset type.
+  utter_form:
+  - text: file-->new-->form and select the form type.
 actions:
   - utter_goodbye
   - utter_greet
@@ -53,3 +56,4 @@ actions:
   - utter_item
   - utter_workflow
   - utter_dataset
+  - utter_form
