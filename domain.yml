@@ -10,6 +10,7 @@ intents:
 - mood_unhappy
 - bot_challenge
 - what_name
+- create
 - create_item
 - Apply_workflow
 - create_dataset
