@@ -43,10 +43,6 @@ templates:
   utter_link:
   - text: "here is the link for google : https://www.google.com/"
 actions:
-  - utter_goodbye
-  - utter_greet
-  - utter_happy
-  - utter_iamabot
   - utter_name
   - utter_item
   - utter_workflow
