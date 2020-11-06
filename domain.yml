@@ -51,6 +51,7 @@ templates:
     - title: create dataset
       payload: "/create_dataset"
 actions:
+  - utter_iamabot
   - utter_happy
   - utter_goodbye
   - utter_name
