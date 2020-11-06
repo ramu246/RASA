@@ -16,16 +16,12 @@ intents:
 - create_dataset
 - create_form
 - google_link
-- image_test
 templates:
   utter_greet:
   - text: Hey! How are you?
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
-  utter_image:
-  - image: https://www.google.com/imgres?imgurl=https%3A%2F%2Fopenthread.google.cn%2Fimages%2Fot-contrib-google.png&imgrefurl=https%3A%2F%2Fgoogle.com%2F&tbnid=EuyEu1gJ3RASTM&vet=12ahUKEwizwemKuu3sAhXZm0sFHfznDKEQMygAegUIARDMAQ..i&docid=ovfJdGLLngSWTM&w=460&h=258&q=google&safe=active&ved=2ahUKEwizwemKuu3sAhXZm0sFHfznDKEQMygAegUIARDMAQ
-    text: 'image test:'
   utter_did_that_help:
   - text: Did that help you?
   utter_happy:
@@ -53,4 +49,3 @@ actions:
   - utter_dataset
   - utter_form
   - utter_link
-  - utter_image
