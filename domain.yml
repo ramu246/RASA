@@ -3,6 +3,13 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
 - what_name
 - create_item
 - Apply_workflow
@@ -44,6 +51,9 @@ templates:
     - title: create dataset
       payload: "/create_dataset"
 actions:
+  - utter_iamabot
+  - utter_happy
+  - utter_goodbye
   - utter_name
   - utter_item
   - utter_workflow
