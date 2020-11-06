@@ -42,6 +42,13 @@ templates:
   - text: file-->new-->form and select the form type.
   utter_link:
   - text: "here is the link for google : https://www.google.com/"
+  utter_create:
+  - text: "what would you prefer:"
+    buttons:
+    - title: create item
+      payload: "/create_item"
+    - title: create dataset
+      payload: "/create_dataset"
 actions:
   - utter_goodbye
   - utter_name
