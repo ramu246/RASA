@@ -86,3 +86,7 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+## intent:what_do_you_have
+- what do u want to create?
+- what you need?
