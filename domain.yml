@@ -16,6 +16,7 @@ intents:
 - create_dataset
 - create_form
 - google_link
+- image_test
 templates:
   utter_greet:
   - text: Hey! How are you?
@@ -52,3 +53,4 @@ actions:
   - utter_dataset
   - utter_form
   - utter_link
+  - utter_image
