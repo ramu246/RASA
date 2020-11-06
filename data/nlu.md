@@ -35,6 +35,8 @@
 
 ## intent:google_link
 - how to access google link
+- google link
+- Google link
 
 ## intent:goodbye
 - bye
